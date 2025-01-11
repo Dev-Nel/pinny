@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta name="author" content="Nelfavie">
+    <meta name="description" content="Simple PIN Generator">
+    <button onclick="toggleLanguage()" style="position:absolute; top:10px; right:10px;">
+        FR/EN
+    </button>
+    <meta charset="UTF-8" name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PIN Generator</title>
+    <title data-lang="Générateur de PIN">PIN Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>PIN Generator</h1>
+        <h1 data-lang="Générateur de PIN">PIN Generator</h1>
         <div id="pin-display">----</div>
-        <button class="fadeIn" onclick="generatePIN()">Generate PIN</button>
-        <p>Made By Nelfavie</p>
+        <button data-lang="Générer une broche" class="fadeIn" onclick="generatePIN()">Generate PIN</button>
+        <p data-lang="Créé par Nelfavie">Made By Nelfavie</p>
     </div>
     <script src="script.js"></script>
 </body>
